@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/selectBookFragment">
+    <fragment
+        android:id="@+id/selectBookFragment"
+        android:name="com.c653d0.word.fragment.SelectBookFragment"
+        android:label="fragment_select_book"
+        tools:layout="@layout/fragment_select_book" >
+        <action
+            android:id="@+id/action_selectBookFragment_to_allBookFragment"
+            app:destination="@id/allBookFragment"
+            app:enterAnim="@anim/slide_from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/allBookFragment"
+        android:name="com.c653d0.word.fragment.AllBookFragment"
+        android:label="fragment_all_book"
+        tools:layout="@layout/fragment_all_book" >
+        <action
+            android:id="@+id/action_allBookFragment_to_allWordFragment"
+            app:destination="@id/allWordFragment"
+            app:enterAnim="@anim/slide_from_left" />
+        <action
+            android:id="@+id/action_allBookFragment_to_selectBookFragment"
+            app:destination="@id/selectBookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allWordFragment"
+        android:name="com.c653d0.word.fragment.AllWordFragment"
+        android:label="AllWordFragment" />
+</navigation>

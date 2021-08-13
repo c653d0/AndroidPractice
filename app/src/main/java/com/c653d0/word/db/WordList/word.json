@@ -1,0 +1,42 @@
+{
+  "msg": "success",
+  "code": "1000",
+  "datas": [
+    {
+      "symbol": "[ˈeɪprəl]",
+      "sound": "https://v.ylapi.cn/img/api/api_reciteword_word_list/162079f7a7322b83.mp3",
+      "class_id": "7476",
+      "name": "April",
+      "course": "1",
+      "class_title": "Student Book 4",
+      "desc": "n.四月；"
+    },
+    {
+      "symbol": "[ˈɔ:gəst]",
+      "sound": "https://v.ylapi.cn/img/api/api_reciteword_word_list/b4254686f09fb5b4.mp3",
+      "class_id": "7476",
+      "name": "August",
+      "course": "1",
+      "class_title": "Student Book 4",
+      "desc": "adj.尊严的，威严的，令人敬畏的；威风..."
+    },
+    {
+      "symbol": "[ˈævənju:]",
+      "sound": "https://v.ylapi.cn/img/api/api_reciteword_word_list/6ca84bce4bed0ead.mp3",
+      "class_id": "7476",
+      "name": "avenue",
+      "course": "1",
+      "class_title": "Student Book 4",
+      "desc": "n.林荫路；大街；途径，手段；〈美〉（南..."
+    },
+    {
+      "symbol": "[ɪˈreɪsə]",
+      "sound": "https://v.ylapi.cn/img/api/api_reciteword_word_list/b526bfa633e4ecb4.mp3",
+      "class_id": "7476",
+      "name": "eraser",
+      "course": "1",
+      "class_title": "Student Book 4",
+      "desc": "橡皮擦，板擦；\" style=\"display:block;\">\t\t\t\t\t\t\t\t\t\t\t\tn."
+    }
+  ]
+}

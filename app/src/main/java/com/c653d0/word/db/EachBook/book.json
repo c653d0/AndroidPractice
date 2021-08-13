@@ -1,0 +1,25 @@
+{
+  "msg": "success",
+  "code": "1000",
+  "datas": [
+    {
+      "child_list": [
+        {
+          "class_id": "250815",
+          "word_num": "345",
+          "title": "新初中人教版 八年级上",
+          "course_num": "18"
+        },
+        {
+          "class_id": "358176",
+          "word_num": "492",
+          "title": "新初中人教版 八年级下",
+          "course_num": "25"
+        }
+      ],
+      "word_num": "837",
+      "title": "新初中人教版",
+      "course_num": "43"
+    }
+  ]
+}
